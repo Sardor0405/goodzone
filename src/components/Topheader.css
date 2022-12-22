@@ -1,0 +1,36 @@
+.cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+    padding: 0 50px;
+}
+
+.left {
+    display: flex;
+}
+
+.middle ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.middle ul li {
+    list-style: none;
+    margin: 10px;
+}
+.middle ul li a {
+    text-decoration: none;
+    color: rgb(56, 45, 45);
+}
+.middle ul li a:hover {
+    color: red;
+}
+
+.right {
+    margin-right: 10px;
+}
+.right:hover {
+    color:red;
+    cursor: pointer;
+}

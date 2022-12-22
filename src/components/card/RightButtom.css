@@ -1,0 +1,52 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.right-button{
+    width: 180px;
+    height: 120px;
+    background-color: rgba(255,25,54);
+    position: fixed;
+    z-index: 20;
+    right: 0;
+    bottom: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    font-weight: bold;
+}
+.right-button button{
+    border: none;
+    width: 70%;
+    height: 29px;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-left: 12px;
+}
+
+.right-shop-box{
+    width: 400px;
+    height: 100vh;
+    background-color: #fff;
+    position: fixed; 
+    right: -100%;
+    top: 0;
+    z-index: 1000;
+    transition: all 2s;
+}
+
+.right-shop-box-ture {
+    right: 0;
+}
+.center{
+    font-size: 10px;
+    padding-left: 15px;
+
+}
+.center-teg {
+    margin-bottom: -5px;
+}

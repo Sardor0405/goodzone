@@ -1,0 +1,73 @@
+.middle-header-cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 60px;
+
+    border-bottom: 1px solid lightgray;
+}
+.middle-header-cont  img {
+    width: 180px;
+    background-color: #fff;
+    padding: 7px;
+    border-radius: 8px;
+}
+.middle-header-icons {
+    display: flex;
+}
+.middle-header-icons div {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+    align-items: center;
+}
+.middle-header-icons div:hover {
+    color: red;
+    cursor: pointer;
+}
+.middle-header-search {
+    /* background-color: red; */
+    width: 100%;
+    margin: 0 50px;
+    height: 50px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    display: flex;
+
+}
+
+.middle-header-search input {
+    width: 90%;
+    padding: 3px 10px;
+    height: 48px;
+    padding-bottom: 5px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    /* background: red; */
+    
+}
+.middle-header-search button {
+    height: 49px;
+    border: none;
+    outline: none;
+    width: 10%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: red;
+    color: #fff;
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+
+.middle-header-sticky {
+    position: sticky;
+    top: 0;
+    z-index: 200;
+    background-color: red;
+    color: #fff;
+}
+
+.middle-header-sticky:hover  .middle-header-icons div {
+    color: #fff;
+}
